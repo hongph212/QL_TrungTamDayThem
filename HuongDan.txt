@@ -1,0 +1,10 @@
+Yêu cầu hệ thống:
+- Visual Studio 2012 hoặc cao hơn
+- SQL Server 2012 hoặc cao hơn
+- Devexpress bản 14.1 hoặc cao hơn
+- DotNetBar 11.2.0.1 hoặc cao hơn
+
+Sử dụng chương trình:
+1/ Chạy CSDL QLTTDH trong folder /Cơ sở dữ liệu/ QLTTDH.sql
+2/ Chạy phần mềm trong folder /Source/QLTrungTamDayHoc/QLTrungTamDayHoc.sln (Nhấn F5 hoặc Debug -> Start Debugging hoặc Start trên thanh công cụ)
+3/ Trải nghiệm phần mềm

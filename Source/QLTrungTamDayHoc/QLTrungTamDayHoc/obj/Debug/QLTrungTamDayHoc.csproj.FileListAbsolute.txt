@@ -1,0 +1,73 @@
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\bin\Debug\QLTrungTamDayHoc.exe
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\bin\Debug\QLTrungTamDayHoc.pdb
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_DangNhap.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_TrangChu.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.Properties.Resources.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.exe.licenses
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.exe
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.pdb
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.exe
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.pdb
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_DangNhap.resources
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_TrangChu.resources
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.Properties.Resources.resources
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.exe.licenses
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\bin\Debug\QLTrungTamDayHoc.exe
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\bin\Debug\QLTrungTamDayHoc.pdb
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemGiangVien.resources
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemHocVien.resources
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemKhoi.resources
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemLop.resources
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemMonHoc.resources
+C:\Users\Admin\Desktop\Source\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemPhong.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemKhoi.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemLop.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemMonHoc.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemUser.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\bin\Debug\QLTrungTamDayHoc.exe.config
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.GUI.frm_QLGiaoVien.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_QLHocVien.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_QLThoiKhoaBieu.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.GUI.frm_TKBGiaoVien.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.GUI.frm_TTGiaoVien.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.GUI.frm_TuVan.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemPDK.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.GUI.frm_KetNoiCSDL.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\bin\Debug\QLTrungTamDayHoc.exe.config
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\bin\Debug\QLTrungTamDayHoc.exe
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\bin\Debug\QLTrungTamDayHoc.pdb
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_DangNhap.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.GUI.frm_KetNoiCSDL.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.GUI.frm_QLGiaoVien.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_QLHocVien.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemGiaoVien.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemPDK.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemKhoi.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemLop.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemMonHoc.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemPhong.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_ThemUser.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_QLThoiKhoaBieu.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.GUI.frm_TKBGiaoVien.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.frm_TrangChu.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.GUI.frm_TTGiaoVien.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.GUI.frm_TuVan.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.Properties.Resources.resources
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.exe.licenses
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.exe
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.pdb
+C:\Users\Admin\Desktop\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.GUI.frm_QLPhongHoc.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.GUI.frm_ChamCongGV.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.GUI.frm_ThongKe.resources
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\QLTrungTamDayHoc.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\RdlCompile.cache
+C:\Users\Admin\Documents\Zalo Received Files\Phân tích thiết kế HTTT\Source\QLTrungTamDayHoc\QLTrungTamDayHoc\obj\Debug\RdlCompile.compiled

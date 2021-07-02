@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QL_TTModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="QL_TTModelStoreContainer">
+    <EntitySet Name="BIENLAI" EntityType="QL_TTModel.Store.BIENLAI" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BUOIHOC" EntityType="QL_TTModel.Store.BUOIHOC" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CAHOC" EntityType="QL_TTModel.Store.CAHOC" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CHAMCONG" EntityType="QL_TTModel.Store.CHAMCONG" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CTPHIEUDK" EntityType="QL_TTModel.Store.CTPHIEUDK" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DIEMDANH" EntityType="QL_TTModel.Store.DIEMDANH" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GIAOVIEN" EntityType="QL_TTModel.Store.GIAOVIEN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HOCVIEN" EntityType="QL_TTModel.Store.HOCVIEN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="KHOI" EntityType="QL_TTModel.Store.KHOI" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LOP" EntityType="QL_TTModel.Store.LOP" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MONHOC" EntityType="QL_TTModel.Store.MONHOC" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="NHANVIEN" EntityType="QL_TTModel.Store.NHANVIEN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PHANCONG" EntityType="QL_TTModel.Store.PHANCONG" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PHIEUDK" EntityType="QL_TTModel.Store.PHIEUDK" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PHIEULUONG" EntityType="QL_TTModel.Store.PHIEULUONG" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PHONGHOC" EntityType="QL_TTModel.Store.PHONGHOC" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="QL_TTModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TAIKHOAN" EntityType="QL_TTModel.Store.TAIKHOAN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="THOIKHOABIEU" EntityType="QL_TTModel.Store.THOIKHOABIEU" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_BL_HV" Association="QL_TTModel.Store.FK_BL_HV">
+      <End Role="HOCVIEN" EntitySet="HOCVIEN" />
+      <End Role="BIENLAI" EntitySet="BIENLAI" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BL_NV" Association="QL_TTModel.Store.FK_BL_NV">
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+      <End Role="BIENLAI" EntitySet="BIENLAI" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CC_PC" Association="QL_TTModel.Store.FK_CC_PC">
+      <End Role="PHANCONG" EntitySet="PHANCONG" />
+      <End Role="CHAMCONG" EntitySet="CHAMCONG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTPDK_L" Association="QL_TTModel.Store.FK_CTPDK_L">
+      <End Role="LOP" EntitySet="LOP" />
+      <End Role="CTPHIEUDK" EntitySet="CTPHIEUDK" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTPDK_PDK" Association="QL_TTModel.Store.FK_CTPDK_PDK">
+      <End Role="PHIEUDK" EntitySet="PHIEUDK" />
+      <End Role="CTPHIEUDK" EntitySet="CTPHIEUDK" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DD_HV" Association="QL_TTModel.Store.FK_DD_HV">
+      <End Role="HOCVIEN" EntitySet="HOCVIEN" />
+      <End Role="DIEMDANH" EntitySet="DIEMDANH" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DD_L" Association="QL_TTModel.Store.FK_DD_L">
+      <End Role="LOP" EntitySet="LOP" />
+      <End Role="DIEMDANH" EntitySet="DIEMDANH" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GV_MH" Association="QL_TTModel.Store.FK_GV_MH">
+      <End Role="MONHOC" EntitySet="MONHOC" />
+      <End Role="GIAOVIEN" EntitySet="GIAOVIEN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_L_K" Association="QL_TTModel.Store.FK_L_K">
+      <End Role="KHOI" EntitySet="KHOI" />
+      <End Role="LOP" EntitySet="LOP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_L_MH" Association="QL_TTModel.Store.FK_L_MH">
+      <End Role="MONHOC" EntitySet="MONHOC" />
+      <End Role="LOP" EntitySet="LOP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NV_TK" Association="QL_TTModel.Store.FK_NV_TK">
+      <End Role="TAIKHOAN" EntitySet="TAIKHOAN" />
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PC_GV" Association="QL_TTModel.Store.FK_PC_GV">
+      <End Role="GIAOVIEN" EntitySet="GIAOVIEN" />
+      <End Role="PHANCONG" EntitySet="PHANCONG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PC_L" Association="QL_TTModel.Store.FK_PC_L">
+      <End Role="LOP" EntitySet="LOP" />
+      <End Role="PHANCONG" EntitySet="PHANCONG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PC_TKB" Association="QL_TTModel.Store.FK_PC_TKB">
+      <End Role="THOIKHOABIEU" EntitySet="THOIKHOABIEU" />
+      <End Role="PHANCONG" EntitySet="PHANCONG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PDK_HV" Association="QL_TTModel.Store.FK_PDK_HV">
+      <End Role="HOCVIEN" EntitySet="HOCVIEN" />
+      <End Role="PHIEUDK" EntitySet="PHIEUDK" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PDK_NV" Association="QL_TTModel.Store.FK_PDK_NV">
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+      <End Role="PHIEUDK" EntitySet="PHIEUDK" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PL_GV" Association="QL_TTModel.Store.FK_PL_GV">
+      <End Role="GIAOVIEN" EntitySet="GIAOVIEN" />
+      <End Role="PHIEULUONG" EntitySet="PHIEULUONG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PL_NV" Association="QL_TTModel.Store.FK_PL_NV">
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+      <End Role="PHIEULUONG" EntitySet="PHIEULUONG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TKB_BH" Association="QL_TTModel.Store.FK_TKB_BH">
+      <End Role="BUOIHOC" EntitySet="BUOIHOC" />
+      <End Role="THOIKHOABIEU" EntitySet="THOIKHOABIEU" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TKB_CH" Association="QL_TTModel.Store.FK_TKB_CH">
+      <End Role="CAHOC" EntitySet="CAHOC" />
+      <End Role="THOIKHOABIEU" EntitySet="THOIKHOABIEU" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TKB_PH" Association="QL_TTModel.Store.FK_TKB_PH">
+      <End Role="PHONGHOC" EntitySet="PHONGHOC" />
+      <End Role="THOIKHOABIEU" EntitySet="THOIKHOABIEU" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="BIENLAI">
+    <Key>
+      <PropertyRef Name="MaBienLai" />
+    </Key>
+    <Property Name="MaBienLai" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NgayDong" Type="date" />
+    <Property Name="SoTien" Type="float" />
+    <Property Name="Thang" Type="int" />
+    <Property Name="MaNV" Type="int" />
+    <Property Name="MaHV" Type="int" />
+  </EntityType>
+  <EntityType Name="BUOIHOC">
+    <Key>
+      <PropertyRef Name="MaBuoi" />
+    </Key>
+    <Property Name="MaBuoi" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TenBuoi" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CAHOC">
+    <Key>
+      <PropertyRef Name="MaCH" />
+    </Key>
+    <Property Name="MaCH" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="GioBD" Type="time" />
+    <Property Name="GioKT" Type="time" />
+    <Property Name="Thu" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CHAMCONG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NgayChamCong" Type="date" />
+    <Property Name="CoPhep" Type="int" />
+    <Property Name="MaPC" Type="int" />
+  </EntityType>
+  <EntityType Name="CTPHIEUDK">
+    <Key>
+      <PropertyRef Name="MaPhieuDK" />
+      <PropertyRef Name="MaLop" />
+    </Key>
+    <Property Name="MaPhieuDK" Type="int" Nullable="false" />
+    <Property Name="MaLop" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DIEMDANH">
+    <Key>
+      <PropertyRef Name="NgayDiemDanh" />
+      <PropertyRef Name="MaHV" />
+      <PropertyRef Name="MaLop" />
+    </Key>
+    <Property Name="NgayDiemDanh" Type="date" Nullable="false" />
+    <Property Name="CoPhep" Type="int" />
+    <Property Name="MaHV" Type="int" Nullable="false" />
+    <Property Name="MaLop" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GIAOVIEN">
+    <Key>
+      <PropertyRef Name="MaGV" />
+    </Key>
+    <Property Name="MaGV" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HoTen" Type="nvarchar" MaxLength="50" />
+    <Property Name="GioiTinh" Type="nvarchar" MaxLength="10" />
+    <Property Name="NgaySinh" Type="date" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="50" />
+    <Property Name="SDT" Type="nvarchar" MaxLength="50" />
+    <Property Name="HeSL" Type="float" />
+    <Property Name="LuongCB" Type="float" />
+    <Property Name="MaMH" Type="int" />
+  </EntityType>
+  <EntityType Name="HOCVIEN">
+    <Key>
+      <PropertyRef Name="MaHV" />
+    </Key>
+    <Property Name="MaHV" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TenHV" Type="nvarchar(max)" />
+    <Property Name="GioiTinh" Type="bit" />
+    <Property Name="NgaySinh" Type="date" />
+    <Property Name="DiaChi" Type="nvarchar(max)" />
+    <Property Name="SDT" Type="nvarchar" MaxLength="50" />
+    <Property Name="DiemDauVao" Type="float" />
+  </EntityType>
+  <EntityType Name="KHOI">
+    <Key>
+      <PropertyRef Name="MaKhoi" />
+    </Key>
+    <Property Name="MaKhoi" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TenKhoi" Type="nvarchar" MaxLength="50" />
+    <Property Name="HocPhi" Type="float" />
+  </EntityType>
+  <EntityType Name="LOP">
+    <Key>
+      <PropertyRef Name="MaLop" />
+    </Key>
+    <Property Name="MaLop" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TenLop" Type="nvarchar" MaxLength="50" />
+    <Property Name="SiSo" Type="int" />
+    <Property Name="MaKhoi" Type="int" />
+    <Property Name="MaMH" Type="int" />
+  </EntityType>
+  <EntityType Name="MONHOC">
+    <Key>
+      <PropertyRef Name="MaMH" />
+    </Key>
+    <Property Name="MaMH" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TenMH" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="NHANVIEN">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TenNV" Type="nvarchar(max)" />
+    <Property Name="DiaChi" Type="nvarchar(max)" />
+    <Property Name="SDT" Type="nvarchar" MaxLength="50" />
+    <Property Name="ChucVu" Type="nvarchar" MaxLength="50" />
+    <Property Name="MaTK" Type="int" />
+  </EntityType>
+  <EntityType Name="PHANCONG">
+    <Key>
+      <PropertyRef Name="MaPC" />
+    </Key>
+    <Property Name="MaPC" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MaLop" Type="int" />
+    <Property Name="MaTKB" Type="int" />
+    <Property Name="MaGV" Type="int" />
+  </EntityType>
+  <EntityType Name="PHIEUDK">
+    <Key>
+      <PropertyRef Name="MaPhieuDK" />
+    </Key>
+    <Property Name="MaPhieuDK" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TongSoMon" Type="int" />
+    <Property Name="NgayDK" Type="date" />
+    <Property Name="MaHV" Type="int" />
+    <Property Name="MaNV" Type="int" />
+  </EntityType>
+  <EntityType Name="PHIEULUONG">
+    <Key>
+      <PropertyRef Name="MaPL" />
+    </Key>
+    <Property Name="MaPL" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TongTien" Type="float" />
+    <Property Name="MaGV" Type="int" />
+    <Property Name="MaNV" Type="int" />
+  </EntityType>
+  <EntityType Name="PHONGHOC">
+    <Key>
+      <PropertyRef Name="MaPH" />
+    </Key>
+    <Property Name="MaPH" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TenPH" Type="nvarchar" MaxLength="50" />
+    <Property Name="SucChua" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TAIKHOAN">
+    <Key>
+      <PropertyRef Name="MaTK" />
+    </Key>
+    <Property Name="MaTK" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TenDN" Type="nvarchar" MaxLength="50" />
+    <Property Name="MatKhau" Type="nvarchar" MaxLength="50" />
+    <Property Name="Quyen" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="THOIKHOABIEU">
+    <Key>
+      <PropertyRef Name="MATKB" />
+    </Key>
+    <Property Name="MATKB" Type="int" Nullable="false" />
+    <Property Name="MaCH" Type="int" />
+    <Property Name="MaBuoi" Type="int" />
+    <Property Name="MaPH" Type="int" />
+  </EntityType>
+  <Association Name="FK_BL_HV">
+    <End Role="HOCVIEN" Type="QL_TTModel.Store.HOCVIEN" Multiplicity="0..1" />
+    <End Role="BIENLAI" Type="QL_TTModel.Store.BIENLAI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOCVIEN">
+        <PropertyRef Name="MaHV" />
+      </Principal>
+      <Dependent Role="BIENLAI">
+        <PropertyRef Name="MaHV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BL_NV">
+    <End Role="NHANVIEN" Type="QL_TTModel.Store.NHANVIEN" Multiplicity="0..1" />
+    <End Role="BIENLAI" Type="QL_TTModel.Store.BIENLAI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="BIENLAI">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CC_PC">
+    <End Role="PHANCONG" Type="QL_TTModel.Store.PHANCONG" Multiplicity="0..1" />
+    <End Role="CHAMCONG" Type="QL_TTModel.Store.CHAMCONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PHANCONG">
+        <PropertyRef Name="MaPC" />
+      </Principal>
+      <Dependent Role="CHAMCONG">
+        <PropertyRef Name="MaPC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTPDK_L">
+    <End Role="LOP" Type="QL_TTModel.Store.LOP" Multiplicity="1" />
+    <End Role="CTPHIEUDK" Type="QL_TTModel.Store.CTPHIEUDK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOP">
+        <PropertyRef Name="MaLop" />
+      </Principal>
+      <Dependent Role="CTPHIEUDK">
+        <PropertyRef Name="MaLop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTPDK_PDK">
+    <End Role="PHIEUDK" Type="QL_TTModel.Store.PHIEUDK" Multiplicity="1" />
+    <End Role="CTPHIEUDK" Type="QL_TTModel.Store.CTPHIEUDK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PHIEUDK">
+        <PropertyRef Name="MaPhieuDK" />
+      </Principal>
+      <Dependent Role="CTPHIEUDK">
+        <PropertyRef Name="MaPhieuDK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DD_HV">
+    <End Role="HOCVIEN" Type="QL_TTModel.Store.HOCVIEN" Multiplicity="1" />
+    <End Role="DIEMDANH" Type="QL_TTModel.Store.DIEMDANH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOCVIEN">
+        <PropertyRef Name="MaHV" />
+      </Principal>
+      <Dependent Role="DIEMDANH">
+        <PropertyRef Name="MaHV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DD_L">
+    <End Role="LOP" Type="QL_TTModel.Store.LOP" Multiplicity="1" />
+    <End Role="DIEMDANH" Type="QL_TTModel.Store.DIEMDANH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOP">
+        <PropertyRef Name="MaLop" />
+      </Principal>
+      <Dependent Role="DIEMDANH">
+        <PropertyRef Name="MaLop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GV_MH">
+    <End Role="MONHOC" Type="QL_TTModel.Store.MONHOC" Multiplicity="0..1" />
+    <End Role="GIAOVIEN" Type="QL_TTModel.Store.GIAOVIEN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MONHOC">
+        <PropertyRef Name="MaMH" />
+      </Principal>
+      <Dependent Role="GIAOVIEN">
+        <PropertyRef Name="MaMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_L_K">
+    <End Role="KHOI" Type="QL_TTModel.Store.KHOI" Multiplicity="0..1" />
+    <End Role="LOP" Type="QL_TTModel.Store.LOP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHOI">
+        <PropertyRef Name="MaKhoi" />
+      </Principal>
+      <Dependent Role="LOP">
+        <PropertyRef Name="MaKhoi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_L_MH">
+    <End Role="MONHOC" Type="QL_TTModel.Store.MONHOC" Multiplicity="0..1" />
+    <End Role="LOP" Type="QL_TTModel.Store.LOP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MONHOC">
+        <PropertyRef Name="MaMH" />
+      </Principal>
+      <Dependent Role="LOP">
+        <PropertyRef Name="MaMH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NV_TK">
+    <End Role="TAIKHOAN" Type="QL_TTModel.Store.TAIKHOAN" Multiplicity="0..1" />
+    <End Role="NHANVIEN" Type="QL_TTModel.Store.NHANVIEN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TAIKHOAN">
+        <PropertyRef Name="MaTK" />
+      </Principal>
+      <Dependent Role="NHANVIEN">
+        <PropertyRef Name="MaTK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PC_GV">
+    <End Role="GIAOVIEN" Type="QL_TTModel.Store.GIAOVIEN" Multiplicity="0..1" />
+    <End Role="PHANCONG" Type="QL_TTModel.Store.PHANCONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GIAOVIEN">
+        <PropertyRef Name="MaGV" />
+      </Principal>
+      <Dependent Role="PHANCONG">
+        <PropertyRef Name="MaGV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PC_L">
+    <End Role="LOP" Type="QL_TTModel.Store.LOP" Multiplicity="0..1" />
+    <End Role="PHANCONG" Type="QL_TTModel.Store.PHANCONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOP">
+        <PropertyRef Name="MaLop" />
+      </Principal>
+      <Dependent Role="PHANCONG">
+        <PropertyRef Name="MaLop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PC_TKB">
+    <End Role="THOIKHOABIEU" Type="QL_TTModel.Store.THOIKHOABIEU" Multiplicity="0..1" />
+    <End Role="PHANCONG" Type="QL_TTModel.Store.PHANCONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="THOIKHOABIEU">
+        <PropertyRef Name="MATKB" />
+      </Principal>
+      <Dependent Role="PHANCONG">
+        <PropertyRef Name="MaTKB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PDK_HV">
+    <End Role="HOCVIEN" Type="QL_TTModel.Store.HOCVIEN" Multiplicity="0..1" />
+    <End Role="PHIEUDK" Type="QL_TTModel.Store.PHIEUDK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOCVIEN">
+        <PropertyRef Name="MaHV" />
+      </Principal>
+      <Dependent Role="PHIEUDK">
+        <PropertyRef Name="MaHV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PDK_NV">
+    <End Role="NHANVIEN" Type="QL_TTModel.Store.NHANVIEN" Multiplicity="0..1" />
+    <End Role="PHIEUDK" Type="QL_TTModel.Store.PHIEUDK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="PHIEUDK">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PL_GV">
+    <End Role="GIAOVIEN" Type="QL_TTModel.Store.GIAOVIEN" Multiplicity="0..1" />
+    <End Role="PHIEULUONG" Type="QL_TTModel.Store.PHIEULUONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GIAOVIEN">
+        <PropertyRef Name="MaGV" />
+      </Principal>
+      <Dependent Role="PHIEULUONG">
+        <PropertyRef Name="MaGV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PL_NV">
+    <End Role="NHANVIEN" Type="QL_TTModel.Store.NHANVIEN" Multiplicity="0..1" />
+    <End Role="PHIEULUONG" Type="QL_TTModel.Store.PHIEULUONG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="PHIEULUONG">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TKB_BH">
+    <End Role="BUOIHOC" Type="QL_TTModel.Store.BUOIHOC" Multiplicity="0..1" />
+    <End Role="THOIKHOABIEU" Type="QL_TTModel.Store.THOIKHOABIEU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BUOIHOC">
+        <PropertyRef Name="MaBuoi" />
+      </Principal>
+      <Dependent Role="THOIKHOABIEU">
+        <PropertyRef Name="MaBuoi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TKB_CH">
+    <End Role="CAHOC" Type="QL_TTModel.Store.CAHOC" Multiplicity="0..1" />
+    <End Role="THOIKHOABIEU" Type="QL_TTModel.Store.THOIKHOABIEU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CAHOC">
+        <PropertyRef Name="MaCH" />
+      </Principal>
+      <Dependent Role="THOIKHOABIEU">
+        <PropertyRef Name="MaCH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TKB_PH">
+    <End Role="PHONGHOC" Type="QL_TTModel.Store.PHONGHOC" Multiplicity="0..1" />
+    <End Role="THOIKHOABIEU" Type="QL_TTModel.Store.THOIKHOABIEU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PHONGHOC">
+        <PropertyRef Name="MaPH" />
+      </Principal>
+      <Dependent Role="THOIKHOABIEU">
+        <PropertyRef Name="MaPH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
